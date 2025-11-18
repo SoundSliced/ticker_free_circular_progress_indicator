@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Stage version bump files",
+			"type": "shell",
+			"command": "cd /Users/christophechanteur/Development/Flutter_projects/my_extensions/ticker_free_circular_progress_indicator && git add pubspec.yaml CHANGELOG.md"
+		}
+	]
+}

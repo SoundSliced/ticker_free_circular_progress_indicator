@@ -2,14 +2,9 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "Stage version bump files",
+			"label": "Stage the deletion of tasks.json",
 			"type": "shell",
-			"command": "cd /Users/christophechanteur/Development/Flutter_projects/my_extensions/ticker_free_circular_progress_indicator && git add pubspec.yaml CHANGELOG.md"
-		},
-		{
-			"label": "Stage all modified files",
-			"type": "shell",
-			"command": "git add ."
+			"command": "git add .vscode/tasks.json"
 		}
 	]
 }

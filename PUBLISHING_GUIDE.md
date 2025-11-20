@@ -114,13 +114,14 @@ This guide provides step-by-step instructions for publishing the `ticker_free_ci
 #### ✅ GitHub Setup Complete
 - [x] Repository created: https://github.com/SoundSliced/ticker_free_circular_progress_indicator
 - [x] Code pushed to main branch
-- [x] Release tag v0.0.2 created and pushed
+- [x] Release tag v1.0.0 created and pushed
+- [x] Documentation updated for v1.0.0 stable release
 
 #### Next Steps for pub.dev Publishing:
 
 1. **Run Tests (Manual):**
    ```bash
-   cd /Users/christophechanteur/Development/Flutter_projects/my_extensions/ticker_free_circular_progress_indicator
+   cd /Users/christophechanteur/Development/Flutter_projects/my_extensions/done/ticker_free_circular_progress_indicator
    flutter test
    ```
 
@@ -137,8 +138,8 @@ This guide provides step-by-step instructions for publishing the `ticker_free_ci
 4. **Create GitHub Release:**
    - Go to https://github.com/SoundSliced/ticker_free_circular_progress_indicator/releases
    - Click "Create a new release"
-   - Tag: `v0.0.2`
-   - Title: `Release v0.0.2`
+   - Tag: `v1.0.0`
+   - Title: `Release v1.0.0 - Stable Release`
    - Copy CHANGELOG.md content as description
 
 ### Step 5: Publish to pub.dev
@@ -156,12 +157,12 @@ flutter pub publish
 
 1. Create and push a version tag:
 ```bash
-git tag -a v0.0.2 -m "Release version 0.0.2"
-git push origin v0.0.2
+git tag -a v1.0.0 -m "Release version 1.0.0 - Stable Release"
+git push origin v1.0.0
 ```
 
 2. Go to GitHub repository → Releases → Create new release
-3. Select tag `v0.0.2`
+3. Select tag `v1.0.0`
 4. Copy changelog content as release notes
 5. Publish release
 

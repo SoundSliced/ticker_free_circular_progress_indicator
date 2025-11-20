@@ -20,7 +20,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  ticker_free_circular_progress_indicator: ^0.0.2
+  ticker_free_circular_progress_indicator: ^1.0.0
 ```
 
 Or install via command line:
@@ -63,9 +63,9 @@ class MyWidget extends StatelessWidget {
 class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const TickerFreeCircularProgressIndicator(
+    return TickerFreeCircularProgressIndicator(
       color: Colors.blue,
-      backgroundColor: Colors.blue.withOpacity(0.2),
+      backgroundColor: Colors.blue.withValues(alpha: 0.2),
       strokeWidth: 6.0,
       strokeAlign: -1.0, // Inside stroke
       strokeCap: StrokeCap.round,

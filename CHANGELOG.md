@@ -65,7 +65,7 @@ TickerFreeCircularProgressIndicator(value: 0.75)
 TickerFreeCircularProgressIndicator(
   value: 0.5,
   color: Colors.blue,
-  backgroundColor: Colors.blue.withOpacity(0.2),
+  backgroundColor: Colors.blue.withValues(alpha: 0.2),
   strokeWidth: 6.0,
   strokeAlign: -1.0, // Inside stroke
   strokeCap: StrokeCap.round,

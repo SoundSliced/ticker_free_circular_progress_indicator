@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:ticker_free_circular_progress_indicator/ticker_free_circular_progress_indicator.dart';
 
 void main() {

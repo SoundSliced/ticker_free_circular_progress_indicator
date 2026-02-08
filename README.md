@@ -20,7 +20,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  ticker_free_circular_progress_indicator: ^1.0.0
+  ticker_free_circular_progress_indicator: ^2.0.0
 ```
 
 Or install via command line:

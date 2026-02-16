@@ -20,7 +20,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  ticker_free_circular_progress_indicator: ^2.0.0
+  ticker_free_circular_progress_indicator: ^2.1.0
 ```
 
 Or install via command line:
@@ -105,6 +105,7 @@ class MyWidget extends StatelessWidget {
 | `semanticsValue` | `String?` | `null` | Accessibility value |
 | `delay` | `Duration?` | `null` | Delay before showing default widget |
 | `defaultWidgetAfterDelay` | `Widget?` | `null` | Widget to show after delay expires |
+| `size` | `double?` | `36.0` | Diameter of the progress indicator |
 
 ## Why Ticker-Free?
 

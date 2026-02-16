@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+ 
+ 
+## 2.1.0
+- `s_packages` dependency upgraded to ^1.3.0
+- Added `size` parameter (replaces hardcoded 36.0 diameter)
 
 ## 2.0.0
 - package no longer holds the source code for it, but exports/exposes the `s_packages` package instead, which will hold this package's latest source code.

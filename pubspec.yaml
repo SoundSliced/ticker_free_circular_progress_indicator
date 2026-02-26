@@ -1,6 +1,6 @@
 name: ticker_free_circular_progress_indicator
 description: A hot-restart safe circular progress indicator that doesn't use TickerProviderStateMixin, using manual frame callbacks for animations.
-version: 2.1.0
+version: 3.0.0
 homepage: https://github.com/SoundSliced/ticker_free_circular_progress_indicator
 repository: https://github.com/SoundSliced/ticker_free_circular_progress_indicator
 issue_tracker: https://github.com/SoundSliced/ticker_free_circular_progress_indicator/issues
@@ -12,7 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  s_packages: ^1.4.2
+  s_packages: ^3.0.0
 
 dev_dependencies:
   flutter_test:
